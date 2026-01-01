@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BanoQabil Sahiwal</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body class="home-page">
+                                         <!-- Header Section -->
+  <header class="header">
+    <nav class="navbar">
+        <!-- Hidden checkbox hack for mobile menu toggle -->
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+
+        <!-- Logo -->
+        <a href="https://www.google.com/maps/place/Bano+Qabil+Sahiwal/@30.6790069,73.107414,17z/data=!4m6!3m5!1s0x1c18b486015cd55:0x267a3d9f176cca4!8m2!3d30.6790023!4d73.1099889!16s%2Fg%2F11yk76spn9?entry=ttu&g_ep=EgoyMDI1MTIwMi4wIKXMDSoASAFQAw%3D%3D" 
+           class="logo" alt="location" target="_blank">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+            </svg>
+            BanoQabil Sahiwal
+        </a>
+
+        <!-- Hamburger Icon (only visible on mobile) -->
+        <label for="menu-toggle" class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <!-- Navigation Links + CTA Button (collapses on mobile) -->
+        <div class="nav-menu">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Faculties.html">Faculties</a></li>
+                <li><a href="Courses.html">Courses</a></li>
+                <li><a href="admission.html">Admissions</a></li>
+                <li><a href="Events.html">Events</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+            </ul>
+            <a href="contact Us.html" class="cta-button">Contact Us</a>
+        </div>
+    </nav>
+</header>
+    
+
+<div class="slideshow">
+    
+  <div class="slide fade">
+    <img src="bq3.jpg" />
+  </div>
+  <div class="slide fade">
+    <img src="hafizg.jpg" />
+  </div>
+   <div class="slide fade">
+    <img src="img3.jpg" />
+  </div>
+  <div class="slide fade">
+    <img src="img2.jpg" />
+  </div>
+  <div class="slide fade">
+    <img src="BQ1.jpg" />
+  </div>
+</div>
+
+
+            <div class="hero-section">
+            <h1 class="hero-title">Who We Are</h1>
+            <p class="hero-subtitle">
+                Bano Qabil is a youth-focused educational and skill development initiative in Pakistan. Our mission is to empower young people by providing free, high-quality training in technical, digital, and professional skills, enabling them to achieve self-reliance, career growth, and a brighter future.
+            </p>
+       </div>
+       
+       <div class="explore-container">
+        <a href="AboutUs.html" class="explore-btn">Explore More About Us &rarr;</a>
+    </div>
+    <main>
+        <div class="hero-section">
+            <h3 class="hero-title">Our Signature Courses</h3>
+            <p class="hero-subtitle">
+                Learn and Grow with Us!
+            </p>
+       </div>
+<section id="home-main" class="section">
+            <div class="home-grid">
+                <div class="home-card" onclick="selectfaculties('Essential of Computing')">
+                    <img src="courses5.jpg" alt="Essentials of Computing">
+                    <div class="home-content">
+                        <div class="home-description">
+                            <h3>Essentials of Computing</h3>
+                            <p>Productivity Software, Internet & Networking </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="home-card" onclick="selectfaculties('Web Development')">
+                    <img src="courses2.jpg" alt="Web Development">
+                    <div class="home-content">
+                        <div class="home-description">
+                            <h3>Web Development</h3>
+                            <p>HTML, CSS, JS, and React</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="home-card" onclick="selectfaculties('Web Development Advanced')">
+                    <img src="courses4.jpg" alt="Web App Development">
+                    <div class="home-content">
+                        <div class="home-description">
+                            <h3>Graphic Designing</h3>
+                            <p>UI/UX Basics, Branding & Logo Design</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        </div> 
+        <div class="explore-container">
+        <a href="courses.html" class="explore-btn">Explore More Courses &rarr;</a>
+    </div>
+    </section>
+	</main>
+    <main>
+        <div class="hero-section">
+            <h3 class="hero-title">News & Events</h3>
+       </div>
+<section id="home-main" class="section">
+            <div class="home-grid">
+                <div class="home-card" onclick="selectfaculties('Enrollemnt')">
+                    <img src="event4.jpg" alt="Enrollemnt">
+                    <div class="home-content">
+                        <div class="home-description">
+                            <h3>Upcoming Enrollemnt</h3>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="home-card" onclick="selectfaculties('Celebrations')">
+                    <img src="event3.jpg" alt="Celebrations">
+                    <div class="home-content">
+                        <div class="home-description">
+                            <h3>Quaid Day Celebrations</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="home-card" onclick="selectfaculties('Final Term Examinations')">
+                    <img src="event7.jpg" alt="Final Term Examinations">
+                    <div class="home-content">
+                        <div class="home-description">
+                            <h3>Final Term Examinations</h3>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        </div> <div class="explore-container">
+        <a href="Events.html" class="explore-btn">Explore More Events &rarr;</a>
+    </div>
+    </section>
+	</main>
+   <!-- Footer Section -->
+
+
+    <footer class="footer-head">
+        <div class="footer-container">
+            <div class="footer-content">
+                <!-- Company Info -->
+                <div class="footer-section">
+                    <ul>
+                    <li><span><img src="logoBQ.png" alt="banoqabil" height="70px" width="70px"></span> </li>
+                    <li> <h3>BanoQabil Sahiwal</h3></li>
+                    <li><p>Join Bano Qabil and get skilled to dominate the tech world.</p></li>
+                    <li> <form class="newsletter-form">
+                            <input type="email" placeholder="Enter your email" required>
+                            <button type="submit">Subscribe</button>
+                        </form></li>
+                        <li>By subscribing you agree to with our Privacy Policy and provide consent to receive updates from our company.</li>
+                    </ul>
+</div>
+ </div>
+ </div>
+                    
+                    <div class="footer-content"> 
+                    <div class="footer-section">
+                        <ul>
+                        <li><h3>Contact Us</h3></li>
+                        <li><span>137, Main Fateh Sher Road, Sahiwal , Pakistan, 57000</span></li>
+                        <li><div class="contact-info">
+                        <svg width="16" height="16" viewBox="0 0 24 24">
+                            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                        </svg>
+                        <span>BanoQabil Sahiwal, Punjab, Pakistan</span>
+                    </div> </li>
+                    <li> <div class="contact-info">
+                        <svg width="16" height="16" viewBox="0 0 24 24">
+                            <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+                        </svg>
+                        <span>+92 335 0800911</span>
+                    </div></li>
+                    <li> <div class="contact-info">
+                        <svg width="16" height="16" viewBox="0 0 24 24">
+                            <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                        </svg>
+                        <span>banoqabilsahiwal@gmail.com</span>
+                    </div> </li>
+                    
+                </ul>
+                     </div>
+                    </div>
+
+                    <!-- Contact Info -->
+                 
+                <div class="footer-content"> 
+                    <div class="footer-section">
+                        <ul>
+                            <li><h3>Follow Us</h3></li>
+                            <li>  <div class="social-links">
+                        <a href="https://www.facebook.com/banoqabilsahiwal" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                        </a> <p>Facebook</p>
+                    </div></li>
+                    <li>
+                        <div class="social-links">
+                        <a href="https://api.whatsapp.com/send?phone=%2B923350800911&fbclid=IwY2xjawPALrdleHRuA2FlbQIxMABicmlkETB0S3NUYmNLVjlkbVNKMk1zc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHvTShZnW15s0WesNUIffaj5Ws85N2-iizkomfMfZoEbCqhCOGk-W8-2pmzNR_aem_qW3gQlWedbbZJrNYE6d28Q" aria-label="Facebook">
+                            <svg class="whatsapp-icon" viewBox="0 0 24 24">
+                                <path d="M12.04 2C6.53 2 2.04 6.49 2.04 12c0 1.97.57 3.86 1.65 5.49L2 22l4.67-1.63A9.96 9.96 0 0 0 12.04 22c5.51 0 10-4.49 10-10s-4.49-10-10-10zm0 18c-1.6 0-3.16-.41-4.54-1.19l-.33-.19-2.77.97.93-2.86-.21-.35A7.96 7.96 0 1 1 12.04 20zm4.44-5.76c-.24-.12-1.44-.71-1.66-.79-.22-.08-.38-.12-.54.12-.16.24-.62.79-.76.95-.14.16-.28.18-.52.06-.24-.12-1.01-.37-1.93-1.18-.71-.63-1.19-1.4-1.33-1.64-.14-.24-.01-.37.11-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.3-.74-1.78-.2-.48-.4-.41-.54-.41-.14 0-.3-.02-.46-.02s-.42.06-.64.3c-.22.24-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.69 2.58 4.1 3.62.57.25 1.02.4 1.37.51.58.18 1.1.15 1.52.09.46-.07 1.44-.59 1.64-1.16.2-.57.2-1.05.14-1.16-.06-.11-.22-.18-.46-.3z"/>
+                                </svg>
+                        </a> <p>Whatsapp</p>
+                    </div>
+                   </li>
+                    <li> <div class="social-links"><a href="https://www.instagram.com/banoqabilsahiwal?igsh=MXU2cnEwYjNnNzNoMw==" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </a><p>Instagram</p> 
+                        </div>
+                        <li> <div class="social-links"><a href="https://www.youtube.com/@BanoQabilSahiwal" aria-label="YouTube">
+                            <svg viewBox="0 0 24 24">
+                                <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                            </svg>
+                        </a><p>YouTube</p> 
+                        </div> </li> 
+                        </ul>
+                        
+                    </div>
+                </div>
+
+</footer>
+                            <!-- Footer Bottom -->            
+<footer>   
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy;2025. All rights reserved.</p>
+                    <div class="footer-links">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                        <a href="#">Cookie Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
